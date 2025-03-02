@@ -1,9 +1,8 @@
+import Facts from "./Views/Facts"
 export default function Main({path}: {path:string}) {
     switch (path){
         case "facts": {
-            return <>
-                <h2>Facts</h2>
-            </>
+            return <Facts></Facts>
         }
         case "story": {
             return <>
