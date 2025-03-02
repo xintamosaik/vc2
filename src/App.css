@@ -1,12 +1,13 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: min(2ch);
   text-align: center;
 }
 
 menu {
   display: flex;
+  padding-inline-start: 0;
   gap: 2ch;
   flex-wrap:wrap;
 }
