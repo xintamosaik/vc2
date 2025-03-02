@@ -4,3 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+
+menu {
+  display: flex;
+  gap: 2ch;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input {
+  padding: 1em;
+}

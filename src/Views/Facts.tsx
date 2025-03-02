@@ -1,7 +1,8 @@
 import { useState } from "react";
 
+import Menu from "./Facts/Menu"
 export default function Facts() {
-  const [path, setPath] = useState("facts");
+  const [path, setPath] = useState("personal");
 
   const handleClick = (value: string) => {
     setPath(value);
@@ -18,7 +19,7 @@ export default function Facts() {
         <button onClick={() => handleClick("skills")}>Skills</button>
       </menu>
 
-      <div>{path}</div>
+      <Menu path={path}></Menu>
     </>
   );
 }
