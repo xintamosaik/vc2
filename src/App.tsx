@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <h1>Very Curriculum</h1>
-      <menu>
+      <menu style={{display: "flex"}}>
         <button onClick={() => handleClick("facts")}>Facts</button>
         <button onClick={() => handleClick("story")}>Story</button>
         <button onClick={() => handleClick("style")}>Style</button>
